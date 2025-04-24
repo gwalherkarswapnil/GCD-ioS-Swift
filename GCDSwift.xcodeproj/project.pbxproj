@@ -7,26 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A92AE3372DB74D090023FDA0 /* GCD ioS Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCD ioS Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92AE3372DB74D090023FDA0 /* GCDSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A92AE3492DB74D0E0023FDA0 /* Exceptions for "GCD ioS Swift" folder in "GCD ioS Swift" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = A92AE3362DB74D090023FDA0 /* GCD ioS Swift */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A92AE3392DB74D090023FDA0 /* GCD ioS Swift */ = {
+		A92AE3392DB74D090023FDA0 /* GCDSwift */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				A92AE3492DB74D0E0023FDA0 /* Exceptions for "GCD ioS Swift" folder in "GCD ioS Swift" target */,
-			);
-			path = "GCD ioS Swift";
+			path = GCDSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +32,7 @@
 		A92AE32E2DB74D090023FDA0 = {
 			isa = PBXGroup;
 			children = (
-				A92AE3392DB74D090023FDA0 /* GCD ioS Swift */,
+				A92AE3392DB74D090023FDA0 /* GCDSwift */,
 				A92AE3382DB74D090023FDA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +40,7 @@
 		A92AE3382DB74D090023FDA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A92AE3372DB74D090023FDA0 /* GCD ioS Swift.app */,
+				A92AE3372DB74D090023FDA0 /* GCDSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A92AE3362DB74D090023FDA0 /* GCD ioS Swift */ = {
+		A92AE3362DB74D090023FDA0 /* GCDSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A92AE34A2DB74D0E0023FDA0 /* Build configuration list for PBXNativeTarget "GCD ioS Swift" */;
+			buildConfigurationList = A92AE34A2DB74D0E0023FDA0 /* Build configuration list for PBXNativeTarget "GCDSwift" */;
 			buildPhases = (
 				A92AE3332DB74D090023FDA0 /* Sources */,
 				A92AE3342DB74D090023FDA0 /* Frameworks */,
@@ -74,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A92AE3392DB74D090023FDA0 /* GCD ioS Swift */,
+				A92AE3392DB74D090023FDA0 /* GCDSwift */,
 			);
-			name = "GCD ioS Swift";
+			name = GCDSwift;
 			packageProductDependencies = (
 			);
 			productName = "GCD ioS Swift";
-			productReference = A92AE3372DB74D090023FDA0 /* GCD ioS Swift.app */;
+			productReference = A92AE3372DB74D090023FDA0 /* GCDSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A92AE3322DB74D090023FDA0 /* Build configuration list for PBXProject "GCD ioS Swift" */;
+			buildConfigurationList = A92AE3322DB74D090023FDA0 /* Build configuration list for PBXProject "GCDSwift" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A92AE3362DB74D090023FDA0 /* GCD ioS Swift */,
+				A92AE3362DB74D090023FDA0 /* GCDSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -146,7 +133,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GCD ioS Swift/Info.plist";
+				INFOPLIST_FILE = GCDSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -173,7 +160,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GCD ioS Swift/Info.plist";
+				INFOPLIST_FILE = GCDSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A92AE3322DB74D090023FDA0 /* Build configuration list for PBXProject "GCD ioS Swift" */ = {
+		A92AE3322DB74D090023FDA0 /* Build configuration list for PBXProject "GCDSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A92AE34D2DB74D0E0023FDA0 /* Debug */,
@@ -323,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A92AE34A2DB74D0E0023FDA0 /* Build configuration list for PBXNativeTarget "GCD ioS Swift" */ = {
+		A92AE34A2DB74D0E0023FDA0 /* Build configuration list for PBXNativeTarget "GCDSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A92AE34B2DB74D0E0023FDA0 /* Debug */,
